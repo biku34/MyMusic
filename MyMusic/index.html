@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMusic</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: black;
+      }
+      .container-fluid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+      }
+      .col-md-8 {
+        padding-right: 350px;
+      }
+      .p {
+        width: 420px;
+      }
+      .q {
+        width: 320px;
+      }
+      .hr {
+        border-top: 3px double #8c8b8b;
+      }
+      .btn {
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border: 2px solid white;
+      }
+      .btn:hover {
+        background-color: white;
+        color: black;
+      }
+      .col-sm-4 {
+        padding-left: 220px;
+      }
+      .footer {
+        padding-left: 570px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="p">
+            <div
+              class="jumbotron"
+              style="background-color: black; color: white"
+            >
+              <h1 style="text-align: center">MyMusic</h1>
+              <hr class="hr" />
+              <h5>Your one-stop solution to good music</h5>
+              <br /><br />
+              <img src="2.jpg" height="150px" width="320px" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="q">
+            <div
+              class="jumbotron"
+              style="background-color: black; box-shadow: 20px 20px 50px red"
+            >
+              <img src="gif/music.gif" width="250px" height="270px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="padding-top: 5px">
+      <div class="col-sm-4">
+        <img src="gif/play2.gif" width="90px" />
+      </div>
+      <div class="col-sm-4">
+        <a href="home.html"
+          ><button type="button" class="btn btn-primary btn-lg">
+            Explore
+          </button></a
+        >
+      </div>
+      <div class="col-sm-4">
+        <img src="gif/play3.gif" width="90px" />
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted"
+          >Copyright &copy; 2024 Bikram Sadhukhan. All rights reserved.</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
